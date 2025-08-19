@@ -3,20 +3,19 @@ import '../styles/NavBar.css'
 export default function NavBar () {
 
 
-    return (<>
-    <div className="navigation">
-    <ul>
+    return (<div className='navBarDiv'>
+
+    <ul className='pages'>
         <li>Home</li>
         <li>Shop</li>
     </ul>
-        </div>
+        
 
-    <div className="cart">
-        <ul>
+        <ul className='cart'>
             <li>Cart</li>
             <li>#</li>
         </ul>
-    </div>
+   </div>
     
-    </>)
+    )
 }
