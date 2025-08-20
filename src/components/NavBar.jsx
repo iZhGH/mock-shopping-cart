@@ -4,16 +4,16 @@ export default function NavBar () {
 
 
     return (<div className='navBarDiv'>
-
+        
     <ul className='pages'>
-        <li>Home</li>
-        <li>Shop</li>
+        <button>Home</button>
+        <button>Shop</button>
     </ul>
         
 
         <ul className='cart'>
-            <li>Cart</li>
-            <li>#</li>
+            <button>Cart</button>
+            <button>#</button>
         </ul>
    </div>
     
