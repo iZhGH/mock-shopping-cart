@@ -7,6 +7,7 @@ function App() {
 
   return (
     <>
+    <a href="ShoppingPage">Shop</a>
     <NavBar/>
     </>
   )
